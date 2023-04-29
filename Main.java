@@ -14,10 +14,7 @@ public class Main
 
     public static void main(String[] args)
     {
-        if (!(args.length == 1) || !loadSave(args[0]))
-        {
-            new MainWindow_();
-        }
+        new MainWindow_();
     }
 
     public static boolean loadDifficulty(String name, int difficulty)
