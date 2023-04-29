@@ -30,7 +30,7 @@ public class Main
         {
             case 1:
                 game.difficulty = 1;
-                game.resources.gold = 1600;
+                game.resources.gold = 1800;
                 game.resources.food = 500;
                 game.resources.wood = 80;
                 game.resources.stone = 80;
@@ -42,7 +42,7 @@ public class Main
                 break;
             case 2:
                 game.difficulty = 2;
-                game.resources.gold = 800;
+                game.resources.gold = 1200;
                 game.resources.food = 200;
                 game.resources.wood = 20;
                 game.resources.stone = 20;
@@ -54,7 +54,7 @@ public class Main
                 break;
             case 3:
                 game.difficulty = 3;
-                game.resources.gold = 400;
+                game.resources.gold = 800;
                 game.resources.food = 100;
                 game.resources.wood = 0;
                 game.resources.stone = 0;
